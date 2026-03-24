@@ -1,0 +1,15 @@
+﻿<Window x:Class="RunningButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunningButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <Button x:Name="GoodChoiseButton" Content="Learn C#" HorizontalAlignment="Left" Margin="74,191,0,0" VerticalAlignment="Top" FontSize="24" Width="140" Click="GoodChoiseButton_Click" Height="50"/>
+        <Button x:Name="BadChoiseButton" Content="Play games" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,191,0,0" FontSize="24" Width="140" Height="50" IsTabStop="False" MouseEnter="BadChoiseButton_MouseEnter" Click="BadChoiseButton_Click"/>
+        <Label Content="What will you choose?" HorizontalAlignment="Center" Margin="0,51,0,0" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Window>

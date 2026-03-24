@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ButtonGenerator/ButtonGenerator.csproj" />
+  <Project Path="RunningButton/RunningButton.csproj" />
+</Solution>
