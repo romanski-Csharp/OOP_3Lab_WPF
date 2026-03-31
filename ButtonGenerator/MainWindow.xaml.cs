@@ -48,6 +48,15 @@ namespace ButtonGenerator
                 return;
             }
 
+            int totalButtons = (to - from) / step + 1;
+
+            if (totalButtons > 1000)
+            {
+                MessageBox.Show("Забагато кнопок! Ви намагаєтеся створити більше 1000 кнопок за один раз.",
+                                "Перевищено ліміт", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             for (int i = from; i <= to; i += step)
             {
                 Button btn = new Button
